@@ -15,15 +15,388 @@
       "docs": "Docs",
       "contact": "Contact",
       "signIn": "Sign in",
-      "signUp": "Get started"
+      "signUp": "Get started",
+      "navigation": {
+        "about": "About",
+        "features": "Features",
+        "faq": "FAQ",
+        "contact": "Contact Us"
+      }
     },
     "home": {
       "meta": {
-        "title": "Transform Your Business Operations Today",
-        "description": "In today's fast-paced world, your business deserves better than outdated trading systems. Our innovative platform streamlines operations, reduces complexity, and helps small businesses thrive in the modern economy."
+        "title": "EventDesk - Professional Event Management Made Simple",
+        "description": "Streamline your event planning process with EventDesk. Built for freelancers, SMEs, and corporate event managers who need powerful tools without the complexity. Get early access today."
       },
       "hero": {
         "announcement": "Read our latest article"
+      },
+      "eventdesk": {
+        "hero": {
+          "badge": "Early Access Available",
+          "title": "Event Planning",
+          "titleHighlight": "Made Simple",
+          "description": "Streamline your event planning and management process with our intuitive, mobile-friendly platform. Built for event planners, freelancers, and corporate managers who value simplicity and efficiency.",
+          "features": {
+            "dashboard": "Unified Dashboard",
+            "rsvp": "Smart RSVP",
+            "budget": "Budget Control",
+            "timeline": "Timeline Mastery",
+            "payments": "Payment Handling",
+            "portal": "Client Portal"
+          },
+          "cta": {
+            "primary": "Get Early Access",
+            "secondary": "Schedule Demo"
+          },
+          "trust": {
+            "text": "Trusted by event professionals worldwide",
+            "types": ["Freelancers", "SMEs", "Corporates", "Agencies"]
+          }
+        },
+        "features": {
+          "title": "Everything You Need to Plan Perfect Events",
+          "subtitle": "Powerful tools designed specifically for event professionals who demand excellence without complexity.",
+          "carousel": {
+            "title": "See EventDesk in Action",
+            "subtitle": "Discover how our powerful features solve real event planning challenges with intuitive solutions.",
+            "items": [
+              {
+                "id": "unified-dashboard",
+                "title": "Unified Dashboard",
+                "problem": "Scattered information across multiple tools creates chaos and missed details",
+                "solution": "One centralized command center that brings all your event data, tasks, and communications together in a single, intuitive interface",
+                "image": "/images/features/unified-dashboard.webp",
+                "alt": "EventDesk unified dashboard showing event overview, tasks, and real-time updates",
+                "benefits": [
+                  "Real-time project visibility",
+                  "Reduced context switching",
+                  "Faster decision making"
+                ]
+              },
+              {
+                "id": "smart-rsvp",
+                "title": "Smart RSVP Management",
+                "problem": "Manual guest tracking leads to errors, duplicate work, and communication nightmares",
+                "solution": "Automated RSVP system with intelligent guest categorization, dietary tracking, and seamless communication workflows",
+                "image": "/images/features/smart-rsvp.webp",
+                "alt": "Smart RSVP interface showing guest management, dietary preferences, and automated responses",
+                "benefits": [
+                  "Automated guest communication",
+                  "Zero manual data entry",
+                  "Real-time attendance tracking"
+                ]
+              },
+              {
+                "id": "budget-control",
+                "title": "Budget Control",
+                "problem": "Cost overruns and financial surprises destroy profitability and client relationships",
+                "solution": "Real-time budget monitoring with predictive analytics, automated alerts, and detailed expense categorization",
+                "image": "/images/features/budget-control.webp",
+                "alt": "Budget control dashboard showing expense tracking, forecasts, and financial alerts",
+                "benefits": [
+                  "Prevent cost overruns",
+                  "Maximize profitability",
+                  "Transparent client reporting"
+                ]
+              },
+              {
+                "id": "timeline-mastery",
+                "title": "Timeline Mastery",
+                "problem": "Missed deadlines and poor coordination lead to event disasters and stressed teams",
+                "solution": "Visual timeline orchestration with dependency mapping, automated reminders, and team collaboration tools",
+                "image": "/images/features/timeline-mastery.webp",
+                "alt": "Interactive timeline showing project milestones, dependencies, and team assignments",
+                "benefits": [
+                  "Never miss deadlines",
+                  "Perfect team coordination",
+                  "Stress-free execution"
+                ]
+              },
+              {
+                "id": "payment-handling",
+                "title": "Payment Handling",
+                "problem": "Chasing payments and managing invoices consumes valuable time and creates cash flow issues",
+                "solution": "Seamless payment processing with automated invoicing, payment reminders, and integrated financial reporting",
+                "image": "/images/features/payment-flow.webp",
+                "alt": "Payment management interface showing invoices, payment status, and financial reports",
+                "benefits": [
+                  "Faster payment collection",
+                  "Automated invoicing",
+                  "Improved cash flow"
+                ]
+              },
+              {
+                "id": "client-portal",
+                "title": "Client Portal",
+                "problem": "Endless email chains and miscommunication frustrate clients and waste your time",
+                "solution": "Branded collaboration hub where clients can review progress, approve decisions, and communicate directly",
+                "image": "/images/features/client-portal.webp",
+                "alt": "Client portal showing project progress, approval workflows, and communication tools",
+                "benefits": [
+                  "Eliminate email chaos",
+                  "Faster approvals",
+                  "Enhanced client satisfaction"
+                ]
+              }
+            ],
+            "navigation": {
+              "previous": "Previous feature",
+              "next": "Next feature",
+              "slideIndicator": "Go to slide {number}"
+            }
+          },
+          "items": [
+            {
+              "title": "Smart Event Planning",
+              "description": "AI-powered planning tools that help you create detailed event timelines, manage resources, and coordinate with vendors seamlessly."
+            },
+            {
+              "title": "Guest Management System",
+              "description": "Comprehensive guest tracking with RSVP management, dietary preferences, seating arrangements, and automated communication."
+            },
+            {
+              "title": "Vendor Coordination",
+              "description": "Centralized vendor management with contract tracking, payment schedules, and real-time collaboration tools."
+            },
+            {
+              "title": "Budget Tracking",
+              "description": "Advanced financial management with real-time budget tracking, expense categorization, and profitability analysis."
+            },
+            {
+              "title": "Timeline Management",
+              "description": "Visual timeline builder with milestone tracking, dependency management, and automated deadline reminders."
+            },
+            {
+              "title": "Client Portal",
+              "description": "Branded client portals for seamless communication, approval workflows, and real-time project updates."
+            },
+            {
+              "title": "Analytics & Reporting",
+              "description": "Comprehensive event analytics with attendee insights, ROI tracking, and customizable performance reports."
+            },
+            {
+              "title": "Mobile App",
+              "description": "Full-featured mobile app for on-the-go event management, real-time updates, and emergency coordination."
+            },
+            {
+              "title": "Integration Hub",
+              "description": "Connect with popular tools like Zoom, Slack, QuickBooks, and social media platforms for seamless workflows."
+            }
+          ]
+        },
+        "testimonials": {
+          "title": "Trusted by Event Professionals Worldwide",
+          "subtitle": "See how EventDesk is transforming the way professionals plan and execute events.",
+          "stats": {
+            "events": "10,000+ Events Planned",
+            "professionals": "2,500+ Event Professionals",
+            "satisfaction": "98% Client Satisfaction",
+            "time": "40% Time Saved on Average"
+          },
+          "items": [
+            {
+              "quote": "EventDesk transformed how I manage corporate events. The client portal alone has saved me countless hours of back-and-forth emails.",
+              "author": "Sarah Chen",
+              "role": "Corporate Event Manager",
+              "company": "TechCorp Solutions"
+            },
+            {
+              "quote": "As a freelance event planner, EventDesk gives me the professional tools I need without the enterprise complexity. It's perfect for my business.",
+              "author": "Marcus Rodriguez",
+              "role": "Freelance Event Planner",
+              "company": "Rodriguez Events"
+            },
+            {
+              "quote": "The budget tracking and vendor management features are game-changers. I can finally keep all my events profitable and organized.",
+              "author": "Emily Watson",
+              "role": "Wedding Planner",
+              "company": "Elegant Occasions"
+            },
+            {
+              "quote": "Our agency switched to EventDesk last year and we've increased our capacity by 60% while maintaining quality. The ROI has been incredible.",
+              "author": "David Kim",
+              "role": "Agency Director",
+              "company": "Premier Event Solutions"
+            },
+            {
+              "quote": "The mobile app is a lifesaver during events. I can coordinate with my team, update timelines, and handle issues in real-time.",
+              "author": "Lisa Thompson",
+              "role": "Event Coordinator",
+              "company": "Metropolitan Events"
+            },
+            {
+              "quote": "EventDesk's analytics help me show clients exactly what ROI they're getting. It's made renewals and upsells so much easier.",
+              "author": "James Park",
+              "role": "Senior Event Manager",
+              "company": "Global Marketing Events"
+            }
+          ]
+        },
+        "cta": {
+          "title": "Ready to Transform Your Event Planning?",
+          "subtitle": "Join the early access program and transform your event planning experience. Be among the first to experience EventDesk. Help shape the future of event management.",
+          "exclusiveCard": {
+            "title": "Exclusive Early Access Program",
+            "description": "Join our exclusive early access program and be among the first 100 event managers to experience EventDesk. Help shape the future of event management while enjoying special launch pricing (grandfathered), priority support, and the opportunity to influence product development based on your real-world needs."
+          },
+          "disclaimer": "No commitment required • Free early access",
+          "socialProof": "Be among the first 100 event managers to shape the future of event planning"
+        },
+        "earlyAccess": {
+          "title": "Get Early Access to EventDesk",
+          "subtitle": "Be among the first to experience the future of event planning. Limited spots available.",
+          "form": {
+            "name": "Full Name",
+            "namePlaceholder": "Enter your full name",
+            "email": "Email Address",
+            "emailPlaceholder": "Enter your email address",
+            "company": "Company Name",
+            "companyPlaceholder": "Enter your company name",
+            "companyType": "Company Type",
+            "companyTypes": {
+              "freelancer": "Freelancer",
+              "sme": "Small/Medium Enterprise",
+              "corporate": "Corporate",
+              "agency": "Event Agency",
+              "other": "Other"
+            },
+            "problem": "What's your biggest event planning challenge?",
+            "problemPlaceholder": "Tell us about your main pain points in event planning...",
+            "submit": "Request Early Access",
+            "submitting": "Submitting...",
+            "success": {
+              "title": "Welcome to EventDesk Early Access!",
+              "message": "Thank you for your interest. We'll be in touch soon with your early access invitation and next steps."
+            },
+            "errors": {
+              "name": "Please enter your full name",
+              "email": "Please enter a valid email address",
+              "company": "Please enter your company name",
+              "companyType": "Please select your company type",
+              "problem": "Please describe your event planning challenges",
+              "recaptcha": "Please complete the security verification",
+              "submit": "Something went wrong. Please try again.",
+              "network": "Network error. Please check your connection and try again."
+            }
+          }
+        },
+        "scheduleDemo": {
+          "title": "Schedule a Demo",
+          "subtitle": "Book a personalized demo to see how EventDesk can transform your event planning process.",
+          "form": {
+            "name": "Full Name",
+            "namePlaceholder": "Enter your full name",
+            "email": "Email Address",
+            "emailPlaceholder": "Enter your email address",
+            "date": "Preferred Date",
+            "datePlaceholder": "Select a date",
+            "time": "Preferred Time",
+            "timePlaceholder": "Select a time",
+            "submit": "Schedule Demo",
+            "submitting": "Scheduling...",
+            "success": {
+              "title": "Demo Scheduled Successfully!",
+              "message": "Scheduled successfully, check your inbox for meeting link."
+            },
+            "errors": {
+              "name": "Please enter your full name",
+              "email": "Please enter a valid email address",
+              "date": "Please select a date",
+              "time": "Please select a time",
+              "dateInvalid": "Please select a date from tomorrow onwards",
+              "recaptcha": "Please complete the security verification",
+              "submit": "Something went wrong. Please try again.",
+              "network": "Network error. Please check your connection and try again."
+            }
+          }
+        },
+        "faq": {
+          "title": "Common Questions, Expert Answers",
+          "subtitle": "Get quick answers to your most pressing questions about EventDesk. We've compiled everything you need to know about transforming your event planning process.",
+          "stats": {
+            "status": "Current Status",
+            "support": "Customer Support",
+            "technology": "Progressive Web App",
+            "access": "Limited Availability"
+          },
+          "cta": {
+            "title": "Still have questions?",
+            "subtitle": "Our team is here to help you make the right decision for your event planning needs."
+          },
+          "items": [
+            {
+              "id": "what-is-eventdesk",
+              "category": "general",
+              "categoryLabel": "General",
+              "question": "What is EventDesk and how can it help my event planning business?",
+              "answer": "EventDesk is a comprehensive event planning platform designed specifically for non-technical event planners, freelancers, and corporate managers. It streamlines your entire event planning process from initial client contact to final invoice, featuring mobile-first guest management, budget tracking, timeline management, and automated workflows. Unlike complex software that requires technical expertise, EventDesk is intuitive and guides you through every step."
+            },
+            {
+              "id": "mobile-guest-management",
+              "category": "features",
+              "categoryLabel": "Features",
+              "question": "How does the mobile guest management system work?",
+              "answer": "Our mobile-first guest management system allows your guests to RSVP, update their information, and manage their attendance directly from their smartphones. You can send invitations via SMS or email, track responses in real-time, manage dietary restrictions and special requests, and even handle last-minute changes. The system automatically syncs with your event dashboard, giving you complete visibility into attendance numbers and guest preferences."
+            },
+            {
+              "id": "budget-tracking",
+              "category": "features",
+              "categoryLabel": "Features",
+              "question": "Can EventDesk help me stay within budget and track expenses?",
+              "answer": "Absolutely! EventDesk includes comprehensive budget management tools that track expenses in real-time, categorize costs by vendor or service type, generate expense reports, and alert you when approaching budget limits. You can create detailed estimates for clients, convert them to invoices with approval workflows, and track payments. The system also provides insights into your most profitable event types and helps identify cost-saving opportunities."
+            },
+            {
+              "id": "learning-curve",
+              "category": "general",
+              "categoryLabel": "General",
+              "question": "I'm not very tech-savvy. How difficult is EventDesk to learn?",
+              "answer": "EventDesk is specifically designed for non-technical users. The interface is intuitive with guided workflows that walk you through each process step-by-step. We provide comprehensive onboarding, video tutorials, and dedicated support to ensure you're comfortable using the platform. Most users are planning their first event within 30 minutes of signing up. Our goal is to simplify, not complicate, your event planning process."
+            },
+            {
+              "id": "event-types",
+              "category": "features",
+              "categoryLabel": "Features",
+              "question": "What types of events can I manage with EventDesk?",
+              "answer": "EventDesk is versatile and supports all types of events including corporate meetings and conferences, weddings and social celebrations, trade shows and exhibitions, fundraising events and galas, workshops and seminars, product launches, and networking events. The platform adapts to your specific event type with customizable templates and workflows tailored to different event categories."
+            },
+            {
+              "id": "pricing-structure",
+              "category": "pricing",
+              "categoryLabel": "Pricing",
+              "question": "How much does EventDesk cost and what's included?",
+              "answer": "We're currently in beta and offering early access to help shape the platform. Pricing will be announced closer to our official launch, but we're committed to keeping it affordable for freelancers and small businesses while providing enterprise-grade features. Early access members will receive special pricing and grandfathered rates. All plans will include core features like guest management, budget tracking, and basic reporting."
+            },
+            {
+              "id": "data-security",
+              "category": "technical",
+              "categoryLabel": "Technical",
+              "question": "How secure is my client and event data?",
+              "answer": "Data security is our top priority. We use enterprise-grade encryption for all data transmission and storage, regular security audits and compliance checks, secure cloud infrastructure with automatic backups, role-based access controls, and GDPR compliance for international clients. Your client information and event details are protected with the same level of security used by major financial institutions."
+            },
+            {
+              "id": "team-collaboration",
+              "category": "features",
+              "categoryLabel": "Features",
+              "question": "Can my team collaborate on events within EventDesk?",
+              "answer": "Yes! EventDesk supports team collaboration with role-based permissions, shared event dashboards, task assignment and tracking, real-time updates and notifications, and communication tools integrated into each event. You can invite team members, assign specific responsibilities, and ensure everyone stays informed about event progress and changes."
+            },
+            {
+              "id": "client-communication",
+              "category": "features",
+              "categoryLabel": "Features",
+              "question": "How does EventDesk help with client communication and approvals?",
+              "answer": "EventDesk streamlines client communication through automated email updates and notifications, client portals where they can view event progress, digital approval workflows for contracts and changes, integrated messaging within the platform, and professional proposal and invoice generation. Clients can approve estimates, make payments, and stay updated on their event progress without constant back-and-forth emails."
+            },
+            {
+              "id": "getting-started",
+              "category": "general",
+              "categoryLabel": "General",
+              "question": "How do I get started with EventDesk?",
+              "answer": "Getting started is simple! Join our early access program by filling out the form on this page. We'll send you an exclusive invite for EventDesk. Early access members will be among the first to use the platform and will receive special onboarding support to ensure a smooth transition to EventDesk."
+            }
+          ]
+        }
       },
       "cases": {
         "title": "Empowering Success Stories Across the Globe"
@@ -153,6 +526,41 @@
       "meta": {
         "title": "Blog",
         "description": "Thoughts, ideas, and opinions."
+      }
+    },
+    "footer": {
+      "branding": {
+        "name": "EventDesk",
+        "tagline": "simplifying event planning"
+      },
+      "navigation": {
+        "home": {
+          "title": "Home",
+          "description": ""
+        },
+        "product": {
+          "title": "Product",
+          "description": "Powerful tools for event planning professionals.",
+          "features": "Features",
+          "pricing": "Pricing"
+        },
+        "company": {
+          "title": "Company",
+          "description": "Learn more about EventDesk.",
+          "blog": "Blog",
+          "careers": "Careers",
+          "contact": "Contact"
+        },
+        "support": {
+          "title": "Support",
+          "description": "Get help when you need it.",
+          "helpCenter": "Help Center",
+          "community": "Community"
+        },
+        "legal": {
+          "title": "Legal",
+          "description": "We stay on top of the latest legal requirements."
+        }
       }
     },
     "contact": {

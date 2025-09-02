@@ -19,3 +19,28 @@ model Page {
   id   Int    @id @default(autoincrement())
   name String
 }
+
+model EarlyAccessRequest {
+  id                   Int      @id @default(autoincrement())
+  name                 String
+  email                String   @unique
+  company              String
+  companyType          String
+  eventPlanningProblem String   @db.Text
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@map("early_access_requests")
+}
+
+model DemoScheduleRequest {
+  id            Int      @id @default(autoincrement())
+  name          String
+  email         String
+  scheduledDate String
+  scheduledTime String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("demo_schedule_requests")
+}

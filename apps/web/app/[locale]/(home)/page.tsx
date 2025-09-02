@@ -2,13 +2,10 @@ import { showBetaFeature } from '@repo/feature-flags';
 import { getDictionary } from '@repo/internationalization';
 import { createMetadata } from '@repo/seo/metadata';
 import type { Metadata } from 'next';
-import { Cases } from './components/cases';
-import { CTA } from './components/cta';
-import { FAQ } from './components/faq';
-import { Features } from './components/features';
-import { Hero } from './components/hero';
-import { Stats } from './components/stats';
-import { Testimonials } from './components/testimonials';
+import { EventDeskCTA } from './components/eventdesk-cta';
+import { EventDeskFAQ } from './components/eventdesk-faq';
+import { EventDeskFeaturesCarousel } from './components/eventdesk-features-carousel';
+import { EventDeskHero } from './components/eventdesk-hero';
 
 type HomeProps = {
   params: Promise<{
@@ -33,17 +30,22 @@ const Home = async ({ params }: HomeProps) => {
   return (
     <>
       {betaFeature && (
-        <div className="w-full bg-black py-2 text-center text-white">
-          Beta feature now available
+        <div className="w-full bg-primary py-2 text-center text-primary-foreground">
+          🎉 EventDesk Early Access Now Available
         </div>
       )}
-      <Hero dictionary={dictionary} />
-      <Cases dictionary={dictionary} />
-      <Features dictionary={dictionary} />
-      <Stats dictionary={dictionary} />
-      <Testimonials dictionary={dictionary} />
-      <FAQ dictionary={dictionary} />
-      <CTA dictionary={dictionary} />
+      <section id="hero">
+        <EventDeskHero dictionary={dictionary} />
+      </section>
+      <section id="features">
+        <EventDeskFeaturesCarousel dictionary={dictionary} />
+      </section>
+      <section id="faq">
+        <EventDeskFAQ dictionary={dictionary} />
+      </section>
+      <section id="cta">
+        <EventDeskCTA dictionary={dictionary} />
+      </section>
     </>
   );
 };

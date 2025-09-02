@@ -1,0 +1,22 @@
+# Feature Images Directory
+
+This directory contains WebP images for the EventDesk features carousel:
+
+- unified-dashboard.webp - Screenshot of the unified dashboard interface
+- smart-rsvp.webp - Screenshot of the smart RSVP management system
+- budget-control.webp - Screenshot of the budget control dashboard
+- timeline-mastery.webp - Screenshot of the timeline management interface
+- payment-handling.webp - Screenshot of the payment processing system
+- client-portal.webp - Screenshot of the client collaboration portal
+
+## Image Requirements
+
+- Format: WebP for optimal performance
+- Aspect Ratio: 16:9 (video aspect ratio)
+- Recommended Size: 1200x675px or higher
+- Optimization: Compressed for web delivery
+- Alt Text: Descriptive text for accessibility (defined in internationalization)
+
+## Usage
+
+These images are used in the EventDeskFeaturesCarousel component to showcase the product features with visual context.
